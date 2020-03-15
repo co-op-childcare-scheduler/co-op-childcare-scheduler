@@ -5,6 +5,21 @@ import "./App.css";
 import "ace-builds/src-noconflict/mode-markdown";
 import "ace-builds/src-noconflict/theme-terminal";
 
+function debounce(func, wait, immediate) {
+	var timeout;
+	return function() {
+		var context = this, args = arguments;
+		var later = function() {
+			timeout = null;
+			if (!immediate) func.apply(context, args);
+		};
+		var callNow = immediate && !timeout;
+		clearTimeout(timeout);
+		timeout = setTimeout(later, wait);
+		if (callNow) func.apply(context, args);
+	};
+};
+
 function _getDateString(newDate) {
   let dateString = new Date(
     newDate.getTime() - newDate.getTimezoneOffset() * 60000
@@ -22,7 +37,9 @@ function _expandDateRange(startDate, endDate) {
   for (let i = 0; i <= numDays; i++) {
     let newDate = new Date(startDate.valueOf());
     newDate.setDate(newDate.getDate() + i);
-    newDate.setFullYear(year);
+    if(newDate.getFullYear() < year) {
+      newDate.setFullYear(year);
+    }
     foundDates.push(_getDateString(newDate));
   }
   return foundDates;
@@ -152,7 +169,7 @@ function App() {
         showLineNumbers: true,
         tabSize: 2
       }}
-      onChange={setScheduleInput}
+      onChange={debounce((newInput) => setScheduleInput(newInput), 500)}
       height="40vh"
     />
   );

@@ -133,21 +133,22 @@ function App() {
 # Xinli
 2020-01-01
 2020-01-03
-01-08 to 01-10
-01-10 to 01-15
+01-08 to 01-11
+01-13 to 01-15
 # Ahmad
-01-25 to 01-31
+2020-01-25 to 2020-01-31
 # Frank
 01-02 to 01-05
 01-10 to 01-15
 # Karen
 01-15 to 01-20
+2020-02-01 to 2020-02-10
 # George
 01-20 to 01-25
 # Tam
 2020-01-06
 2020-01-07
-2020-02-01`);
+2020-02-01 to 2020-02-10`);
 
   let datesByUser = parseDatesByUsers(scheduleInput);
   let usersByDates = parseUsersByDates(datesByUser);

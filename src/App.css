@@ -13,15 +13,29 @@
   }
 }
 
-.App-header {
+body {
   background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  color: white; 
+  min-width: 60vw;
+}
+
+.calendars {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   min-height: 100vh;
+  min-width: 60vw;
+}
+
+.calendar-row {
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-width: 60vw;
 }
 
 .App-link {

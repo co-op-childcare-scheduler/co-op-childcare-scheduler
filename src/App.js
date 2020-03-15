@@ -233,6 +233,7 @@ function App() {
               <div className="calendar-editor">{OutputEditor}</div>
             </div>
           </div>
+        <div className="calendar-row">Written by:&nbsp;<a href="https://github.com/tamsanh/">@tamsanh</a></div>
         </div>
         {/* <div className="calendar-instruction">
           <h2>Instructions</h2>

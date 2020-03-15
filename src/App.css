@@ -3,6 +3,10 @@
   height: 100vh;
 }
 
+a {
+  color: #fff;
+}
+
 h1, h2 {
   margin: 0px;
 }

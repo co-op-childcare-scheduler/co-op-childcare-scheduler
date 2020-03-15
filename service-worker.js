@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/co-op-childcare-scheduler/precache-manifest.8bdffd2fc522e3969ee07217b402157f.js"
+  "/co-op-childcare-scheduler/precache-manifest.30ccf79513737f1157c5c248ba786247.js"
 );
 
 self.addEventListener('message', (event) => {

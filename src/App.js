@@ -123,7 +123,7 @@ function chooseUsersForDates(usersByDates) {
 function formatChosenUsers(chosenUsers) {
   let outputLines = [];
   for (let dt of Object.keys(chosenUsers).sort()) {
-    outputLines.push(dt + ": " + (chosenUsers[dt] || "UNSPECIFIED"));
+    outputLines.push(dt + "\t" + (chosenUsers[dt] || "UNSPECIFIED"));
   }
   return outputLines.join("\n");
 }
@@ -185,7 +185,7 @@ function App() {
       highlightActiveLine={true}
       value={output}
       setOptions={{
-        showLineNumbers: true,
+        showLineNumbers: false,
         tabSize: 2
       }}
       height="40vh"
@@ -229,7 +229,7 @@ function App() {
           </div>
           <div className="calendar-row">
             <div className="calendar-pair">
-              <h2 className="calendar-label">Available Dates</h2>
+              <h2 className="calendar-label">Assignment</h2>
               <div className="calendar-editor">{OutputEditor}</div>
             </div>
           </div>

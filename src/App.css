@@ -1,10 +1,10 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2 {
+  margin: 0px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -23,19 +23,48 @@ body {
 
 .calendars {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  min-height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+
   min-width: 60vw;
 }
 
 .calendar-row {
   min-height: 40vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  min-width: 60vw;
+  margin: 5px;
+}
+
+.calendar-pair {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.calendar-editor {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.calendar-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.calendar-io {
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar-instruction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
 }
 
 .App-link {

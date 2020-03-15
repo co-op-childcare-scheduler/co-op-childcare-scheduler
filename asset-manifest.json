@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/co-op-childcare-scheduler/static/css/main.5f361e03.chunk.css",
-    "main.js": "/co-op-childcare-scheduler/static/js/main.9e5ab6f0.chunk.js",
-    "main.js.map": "/co-op-childcare-scheduler/static/js/main.9e5ab6f0.chunk.js.map",
-    "runtime-main.js": "/co-op-childcare-scheduler/static/js/runtime-main.755d6f00.js",
-    "runtime-main.js.map": "/co-op-childcare-scheduler/static/js/runtime-main.755d6f00.js.map",
-    "static/js/2.a4d32b88.chunk.js": "/co-op-childcare-scheduler/static/js/2.a4d32b88.chunk.js",
-    "static/js/2.a4d32b88.chunk.js.map": "/co-op-childcare-scheduler/static/js/2.a4d32b88.chunk.js.map",
+    "main.css": "/co-op-childcare-scheduler/static/css/main.8f41ec2a.chunk.css",
+    "main.js": "/co-op-childcare-scheduler/static/js/main.df7cc267.chunk.js",
+    "main.js.map": "/co-op-childcare-scheduler/static/js/main.df7cc267.chunk.js.map",
+    "runtime-main.js": "/co-op-childcare-scheduler/static/js/runtime-main.2bf967dc.js",
+    "runtime-main.js.map": "/co-op-childcare-scheduler/static/js/runtime-main.2bf967dc.js.map",
+    "static/js/2.51b7917f.chunk.js": "/co-op-childcare-scheduler/static/js/2.51b7917f.chunk.js",
+    "static/js/2.51b7917f.chunk.js.map": "/co-op-childcare-scheduler/static/js/2.51b7917f.chunk.js.map",
     "index.html": "/co-op-childcare-scheduler/index.html",
-    "precache-manifest.3d5d656a9f3bb006716b54527e93f162.js": "/co-op-childcare-scheduler/precache-manifest.3d5d656a9f3bb006716b54527e93f162.js",
+    "precache-manifest.c2d7ff13de59db9da217e0166ae920e3.js": "/co-op-childcare-scheduler/precache-manifest.c2d7ff13de59db9da217e0166ae920e3.js",
     "service-worker.js": "/co-op-childcare-scheduler/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/co-op-childcare-scheduler/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.a4d32b88.chunk.js.LICENSE.txt": "/co-op-childcare-scheduler/static/js/2.a4d32b88.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/co-op-childcare-scheduler/static/media/logo.5d5d9eef.svg"
+    "static/css/main.8f41ec2a.chunk.css.map": "/co-op-childcare-scheduler/static/css/main.8f41ec2a.chunk.css.map",
+    "static/js/2.51b7917f.chunk.js.LICENSE.txt": "/co-op-childcare-scheduler/static/js/2.51b7917f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.755d6f00.js",
-    "static/js/2.a4d32b88.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.9e5ab6f0.chunk.js"
+    "static/js/runtime-main.2bf967dc.js",
+    "static/js/2.51b7917f.chunk.js",
+    "static/css/main.8f41ec2a.chunk.css",
+    "static/js/main.df7cc267.chunk.js"
   ]
 }
